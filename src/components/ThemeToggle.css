@@ -1,0 +1,30 @@
+.theme-toggle {
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  
+  .light {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --button-bg: #000000;
+    --button-text: #ffffff;
+  }
+  
+  .dark {
+    --bg-color: #121212;
+    --text-color: #ffffff;
+    --button-bg: #ffffff;
+    --button-text: #121212;
+  }
+  
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: all 0.3s ease-in-out;
+  }
+  

@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "title": "The Dark Knight",
+      "year": "2008",
+      "poster": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Inception",
+      "year": "2010",
+      "poster": "https://image.tmdb.org/t/p/w500/edv5CZvWj09upOsy2Y6IwDhK8bt.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Interstellar",
+      "year": "2014",
+      "poster": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg"
+    }
+  ]
+  
