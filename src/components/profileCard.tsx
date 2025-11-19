@@ -1,6 +1,15 @@
 import React from "react";
 import "./ProfileCard.css";
-const ProfileCard = ({ image, name, jobTitle, description, contact }) => {
+
+interface ProfileCardProps {
+  image: string;
+  name: string;
+  jobTitle: string;
+  description: string;
+  contact: string;
+}
+
+const ProfileCard = ({ image, name, jobTitle, description, contact }: ProfileCardProps) => {
   return (
     <div className="card">
       <img src={image} alt={name} className="profile-img" />

@@ -37,7 +37,7 @@ const Login = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (validateForm()) {
-      navigate(`/login/`);
+      navigate(`/dashboard`);
     }
   };
 
